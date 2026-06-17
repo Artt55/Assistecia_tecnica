@@ -1,0 +1,52 @@
+Nome do Cliente,Contato,Email,Problema do PC,Pecas Trocadas,Valor das Pecas (R$),Valor do Servico (R$),Orcamento Final (R$),Status
+Ana Paula Souza,(51) 99812-3456,anapaula.souza@gmail.com,Sem energia,Fonte de alimentação,180.00,80.00,260.00,Resolvido
+Carlos Eduardo Lima,(51) 98765-4321,carlos.lima@hotmail.com,Tela azul,Memória RAM 8GB,150.00,60.00,210.00,Pendente
+Fernanda Oliveira,(51) 99234-5678,fernanda.oliveira@yahoo.com.br,Superaquecimento,Pasta térmica + cooler,90.00,50.00,140.00,Resolvido
+Roberto Alves,(54) 98456-7890,roberto.alves@gmail.com,Lentidão,SSD 240GB,180.00,70.00,250.00,Resolvido
+Juliana Martins,(51) 99345-6789,juliana.martins@outlook.com,Sem imagem,Placa de vídeo,420.00,90.00,510.00,Pendente
+Marcos Pereira,(54) 99567-8901,marcos.pereira@gmail.com,Falha no HD,HD 1TB,220.00,60.00,280.00,Resolvido
+Patrícia Costa,(51) 98678-9012,patricia.costa@gmail.com,Falha no teclado,Teclado,85.00,30.00,115.00,Resolvido
+Lucas Ferreira,(51) 99789-0123,lucas.ferreira@hotmail.com,Falha no mouse,Mouse,60.00,20.00,80.00,Pendente
+Camila Rodrigues,(54) 98890-1234,camila.rodrigues@gmail.com,Falha na memória RAM,Memória RAM 16GB,280.00,60.00,340.00,Resolvido
+Diego Nascimento,(51) 99901-2345,diego.nascimento@gmail.com,Falha na fonte,Fonte 500W,200.00,80.00,280.00,Pendente
+Beatriz Santos,(51) 98012-3456,beatriz.santos@yahoo.com.br,Sem áudio,Placa de som,130.00,50.00,180.00,Resolvido
+Thiago Carvalho,(54) 99123-4567,thiago.carvalho@gmail.com,Lentidão,Nenhuma (apenas serviço),0.00,120.00,120.00,Resolvido
+Amanda Lima,(51) 98234-5678,amanda.lima@gmail.com,Falha na placa-mãe,Placa-mãe,550.00,150.00,700.00,Pendente
+Felipe Araújo,(51) 99345-6780,felipe.araujo@hotmail.com,Falha na bateria,Bateria,180.00,40.00,220.00,Resolvido
+Larissa Mendes,(54) 98456-7891,larissa.mendes@gmail.com,Falha na tela,Tela LCD,320.00,100.00,420.00,Pendente
+Rafael Barbosa,(51) 99567-8902,rafael.barbosa@gmail.com,Sem internet,Placa de rede Wi-Fi,90.00,40.00,130.00,Resolvido
+Tatiane Rocha,(51) 98678-9013,tatiane.rocha@outlook.com,Desligamento inesperado,Cooler + pasta térmica,95.00,60.00,155.00,Resolvido
+Vinícius Gomes,(54) 99789-0124,vinicius.gomes@gmail.com,Falha no HD,HD 2TB,350.00,80.00,430.00,Pendente
+Priscila Moura,(51) 98890-1235,priscila.moura@gmail.com,Falha na USB,Controladora USB,70.00,50.00,120.00,Resolvido
+Eduardo Teixeira,(51) 99901-2346,eduardo.teixeira@hotmail.com,Falha na memória RAM,Memória RAM 8GB,150.00,50.00,200.00,Pendente
+Sandra Nunes,(54) 98012-3457,sandra.nunes@gmail.com,Falha na fonte,Fonte de alimentação 600W,250.00,80.00,330.00,Resolvido
+Bruno Cardoso,(51) 99123-4568,bruno.cardoso@gmail.com,Superaquecimento,Cooler,75.00,30.00,105.00,Resolvido
+Aline Pinto,(51) 98234-5679,aline.pinto@yahoo.com.br,Falha no sistema,Nenhuma (apenas serviço),0.00,100.00,100.00,Pendente
+Gustavo Melo,(54) 99345-6781,gustavo.melo@gmail.com,Falha na GPU,Placa de vídeo GTX 1650,680.00,100.00,780.00,Resolvido
+Renata Freitas,(51) 98456-7892,renata.freitas@gmail.com,Falha no teclado,Teclado notebook,140.00,60.00,200.00,Pendente
+Henrique Ramos,(51) 99567-8903,henrique.ramos@hotmail.com,Sem internet,Placa de rede,80.00,40.00,120.00,Resolvido
+Isabela Castro,(54) 98678-9014,isabela.castro@gmail.com,Falha na bateria,Bateria,190.00,40.00,230.00,Resolvido
+Leonardo Dias,(51) 99789-0125,leonardo.dias@gmail.com,Superaquecimento,Cooler Intel,85.00,40.00,125.00,Pendente
+Mônica Almeida,(51) 98890-1236,monica.almeida@outlook.com,Falha no SSD,Cabo SATA + SSD 480GB,230.00,50.00,280.00,Resolvido
+Rodrigo Machado,(54) 99901-2347,rodrigo.machado@gmail.com,Superaquecimento,Cooler + limpeza interna,110.00,80.00,190.00,Resolvido
+Daniela Corrêa,(51) 98012-3458,daniela.correa@gmail.com,Falha na memória RAM,Memória RAM 16GB,280.00,50.00,330.00,Pendente
+Paulo Henrique Silva,(51) 99123-4569,pauloh.silva@hotmail.com,Falha na fonte,Fonte 650W,290.00,80.00,370.00,Resolvido
+Natália Borges,(54) 98234-5680,natalia.borges@gmail.com,Sem imagem,Cabo HDMI + adaptador,55.00,30.00,85.00,Pendente
+André Ribeiro,(51) 99345-6782,andre.ribeiro@gmail.com,Falha no sistema,SSD + reinstalação SO,190.00,130.00,320.00,Resolvido
+Letícia Monteiro,(51) 98456-7893,leticia.monteiro@yahoo.com.br,Superaquecimento,Kit ventoinhas,120.00,50.00,170.00,Resolvido
+Fábio Cunha,(54) 99567-8904,fabio.cunha@gmail.com,Sem áudio,Placa de som externa,95.00,30.00,125.00,Pendente
+Cristina Duarte,(51) 98678-9015,cristina.duarte@gmail.com,Sem energia,Carregador original,130.00,30.00,160.00,Resolvido
+Marcelo Brum,(51) 99789-0126,marcelo.brum@hotmail.com,Falha na placa-mãe,Placa-mãe B450,480.00,150.00,630.00,Pendente
+Vanessa Fonseca,(54) 98890-1237,vanessa.fonseca@gmail.com,Falha no HD,Cabo USB 3.0 + case HD,70.00,30.00,100.00,Resolvido
+Alexandre Campos,(51) 99901-2348,alexandre.campos@gmail.com,Lentidão,Nenhuma (apenas serviço),0.00,150.00,150.00,Resolvido
+Juliane Petry,(51) 98012-3459,juliane.petry@outlook.com,Falha na tela,Cabo flat da tela,90.00,70.00,160.00,Pendente
+Sérgio Hoffmann,(54) 99123-4570,sergio.hoffmann@gmail.com,Falha na GPU,Pasta térmica GPU + limpeza,35.00,80.00,115.00,Resolvido
+Elaine Braga,(51) 98234-5681,elaine.braga@gmail.com,Falha no processador,Processador Ryzen 5,750.00,120.00,870.00,Pendente
+Tiago Witter,(51) 99345-6783,tiago.witter@hotmail.com,Sem áudio,Nenhuma (apenas serviço),0.00,60.00,60.00,Resolvido
+Carina Leal,(54) 98456-7894,carina.leal@gmail.com,Falha na memória RAM,Memória RAM 8GB DDR4,155.00,50.00,205.00,Resolvido
+Renan Flores,(51) 99567-8905,renan.flores@gmail.com,Falha no HD,SSD 480GB,195.00,80.00,275.00,Pendente
+Adriana Scherer,(51) 98678-9016,adriana.scherer@yahoo.com.br,Falha na webcam,Webcam HD,110.00,25.00,135.00,Resolvido
+Jonas Krause,(54) 99789-0127,jonas.krause@gmail.com,Falha no sistema,Reinstalação + limpeza,0.00,130.00,130.00,Resolvido
+Simone Heck,(51) 98890-1238,simone.heck@gmail.com,Falha no botão power,Botão power + cabo,45.00,40.00,85.00,Pendente
+Leandro Vogt,(51) 99901-2349,leandro.vogt@hotmail.com,Falha na placa-mãe,Placa-mãe + memória,620.00,150.00,770.00,Resolvido
+Leticia Abreu,(51) 99177-6510,letabreu@gmail.com,Superaquecimento,Cooler + pasta térmica,90.00,50.00,140.00,Pendente
