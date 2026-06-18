@@ -1,5 +1,5 @@
 # Projeto Integrador 2026 - SENAC Tech
-## Porjeto - Assistência Técnica
+## Projeto - Assistência Técnica
 
 ### Dados
 - Nome do cliente
