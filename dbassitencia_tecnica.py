@@ -70,8 +70,53 @@ def problema_mais_frequente():
             contagem[problema_do_pc] = 1
     return max(contagem, key=contagem.get)
 
+def problema_mais_frequente_resolvidos():
+    registros = resolvidos()
+    contagem = {}
+    for registro in registros:
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
+        if problema_do_pc in contagem:
+            contagem[problema_do_pc] += 1
+        else:
+            contagem[problema_do_pc] = 1
+    return max(contagem, key=contagem.get)
+
+def problema_mais_frequente_pendentes():
+    registros = pendentes()
+    contagem = {}
+    for registro in registros:
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
+        if problema_do_pc in contagem:
+            contagem[problema_do_pc] += 1
+        else:
+            contagem[problema_do_pc] = 1
+    return max(contagem, key=contagem.get)
+
 def problema_menos_frequente():
     registros = todos()
+    contagem = {}
+    for registro in registros:
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
+        if problema_do_pc in contagem:
+            contagem[problema_do_pc] += 1
+        else:
+            contagem[problema_do_pc] = 1
+    return min(contagem, key=contagem.get)
+
+def problema_menos_frequente_resolvidos():
+    registros = resolvidos()
+    contagem = {}
+    for registro in registros:
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
+        if problema_do_pc in contagem:
+            contagem[problema_do_pc] += 1
+        else:
+            contagem[problema_do_pc] = 1
+    return min(contagem, key=contagem.get)
+
+
+def problema_menos_frequente_pendentes():
+    registros = pendentes()
     contagem = {}
     for registro in registros:
         nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
