@@ -8,6 +8,15 @@ def todos():
     clientes_assistencia.close()
     return registro[1:]
 
+def cadastrar(nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status):
+    clientes_assistencia = open(
+        file="clientes_assistencia.csv",
+        mode="a",
+        encoding="utf-8"
+    )
+    clientes_assistencia.write(f"{nome},{telefone},{email},{problema_do_pc},{pecas_trocadas},{custo_peca:.2f},{valor_servico:.2f},{valor_total:.2f},{status}\n")
+    clientes_assistencia.close()
+
 def por_nome(nome_pesquisado):
     registros = todos()
     registros_filtrados = list()
