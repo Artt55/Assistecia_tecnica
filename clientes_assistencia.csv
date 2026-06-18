@@ -1,4 +1,4 @@
-Nome do Cliente,Contato,Email,Problema do PC,Pecas Trocadas,Valor das Pecas (R$),Valor do Servico (R$),Orcamento Final (R$),Status
+Nome do Cliente,Telefone,Email,Problema do PC,Pecas Trocadas,Valor das Pecas (R$),Valor do Servico (R$),Valor Total (R$),Status
 Ana Paula Souza,(51) 99812-3456,anapaula.souza@gmail.com,Sem energia,Fonte de alimentação,180.00,80.00,260.00,Resolvido
 Carlos Eduardo Lima,(51) 98765-4321,carlos.lima@hotmail.com,Tela azul,Memória RAM 8GB,150.00,60.00,210.00,Pendente
 Fernanda Oliveira,(51) 99234-5678,fernanda.oliveira@yahoo.com.br,Superaquecimento,Pasta térmica + cooler,90.00,50.00,140.00,Resolvido

@@ -6,13 +6,13 @@ def todos():
     )
     registro = clientes_assistencia.readlines()
     clientes_assistencia.close()
-    return registro
+    return registro[1:]
 
 def por_nome(nome_pesquisado):
     registros = todos()
     registros_filtrados = list()
     for registro in registros:
-        nome, contato, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, orcamento_final = registro.strip().split(",")
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
         if nome == nome_pesquisado:
             registros_filtrados.append(registro)
     return registros_filtrados
@@ -21,7 +21,7 @@ def por_problema(problema_pesquisado):
     registros = todos()
     registros_filtrados = list()
     for registro in registros:
-        nome, contato, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, orcamento_final = registro.strip().split(",")
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
         if problema_do_pc == problema_pesquisado:
             registros_filtrados.append(registro)
     return registros_filtrados
@@ -30,7 +30,7 @@ def por_peca(peca_pesquisada):
     registros = todos()
     registros_filtrados = list()
     for registro in registros:
-        nome, contato, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, orcamento_final = registro.strip().split(",")
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
         if pecas_trocadas == peca_pesquisada:
             registros_filtrados.append(registro)
     return registros_filtrados
@@ -39,7 +39,7 @@ def pendentes():
     registros = todos()
     registros_filtrados = list()
     for registro in registros:
-        nome, contato, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, orcamento_final, status = registro.strip().split(",")
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
         if status == "Pendente":
             registros_filtrados.append(registro)
     return registros_filtrados
@@ -48,7 +48,7 @@ def resolvidos():
     registros = todos()
     registros_filtrados = list()
     for registro in registros:
-        nome, contato, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, orcamento_final, status = registro.strip().split(",")
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
         if status == "Resolvido":
             registros_filtrados.append(registro)
     return registros_filtrados
@@ -63,7 +63,7 @@ def problema_mais_frequente():
     registros = todos()
     contagem = {}
     for registro in registros:
-        nome, contato, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, orcamento_final, status = registro.strip().split(",")
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
         if problema_do_pc in contagem:
             contagem[problema_do_pc] += 1
         else:
@@ -74,7 +74,7 @@ def problema_menos_frequente():
     registros = todos()
     contagem = {}
     for registro in registros:
-        nome, contato, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, orcamento_final, status = registro.strip().split(",")
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
         if problema_do_pc in contagem:
             contagem[problema_do_pc] += 1
         else:
@@ -86,9 +86,9 @@ def maior_valor_gasto():
     maior = 0
     cliente_maior = ""
     for registro in registros:
-        nome, contato, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, orcamento_final, status = registro.strip().split(",")
-        if float(orcamento_final) > maior:
-            maior = float(orcamento_final)
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
+        if float(valor_total) > maior:
+            maior = float(valor_total)
             cliente_maior = nome
     return cliente_maior, maior
 
@@ -97,9 +97,9 @@ def menor_valor_gasto():
     menor = float("inf")
     cliente_menor = ""
     for registro in registros:
-        nome, contato, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, orcamento_final, status = registro.strip().split(",")
-        if float(orcamento_final) < menor:
-            menor = float(orcamento_final)
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
+        if float(valor_total) < menor:
+            menor = float(valor_total)
             cliente_menor = nome
     return cliente_menor, menor
 
@@ -107,8 +107,8 @@ def media_de_valor():
     registros = todos()
     total = 0
     for registro in registros:
-        nome, contato, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, orcamento_final, status = registro.strip().split(",")
-        total += float(orcamento_final)
+        nome, telefone, email, problema_do_pc, pecas_trocadas, custo_peca, valor_servico, valor_total, status = registro.strip().split(",")
+        total += float(valor_total)
     return total / len(registros)
 
 def contar():
